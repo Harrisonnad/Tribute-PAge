@@ -25,11 +25,18 @@ footer {
   align-items: center;
   flex-direction: column;
 }
-.img-content {
+#img-div {
   background-color: white;
   margin-bottom: 30px;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 12px;
+  width: 100%;
+  display: inline-block;
+  overflow: inherit;
+  max-width: 100%;
+  text-align: center;
 }
 #list {
   display: flex;
@@ -47,4 +54,12 @@ em {
   align-items: center;
   padding: 5px 10px;
   margin: 0 320px;
+}
+#image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
